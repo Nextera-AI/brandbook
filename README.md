@@ -2,7 +2,8 @@
 
 Единый источник дизайн-кода Nextera для людей и агентов: цвета, шрифт, логотипы, шаблоны.
 
-- **Мастер — Figma** [TOLK_NEXTERA](https://www.figma.com/design/eJKQuooNI4IBcZsXrLQ5yi/TOLK_NEXTERA--Copy-?node-id=711-1249), страница `guide`. Дизайнеры правят там.
+- **Мастер — Figma** [NexteraBrandBook](https://www.figma.com/design/KCfG4o42G1dTIOesBKcvUn/NexteraBrandBook): страницы `guide` (брендбук), `web` (сайт), `case` (кейс бренда). Дизайнеры правят там.
+- **Брендбук текстом** — [GUIDE.md](GUIDE.md): позиционирование, характер и голос, логотип, шрифты, палитра, графика, материалы.
 - **Это репо — выгрузка из Figma**: файлы, которыми пользуются сайты, документы и агенты. Значения здесь руками не меняют — сначала Figma, потом выгрузка.
 - **Агенты платформы** получают брендбук навыком `nextera-brand` (папка `skill/`), а не чтением этого репо.
 
@@ -23,12 +24,16 @@
 | Папка | Что |
 |---|---|
 | `tokens/` | `colors.json`, `typography.json`, `tokens.css` — значения с ролями |
-| `logo/` | SVG из Figma: `wordmark.svg` (логотип), `lockup.svg` (логотип + подпись + символ), `symbol.svg` (символ-«бусины», градиент). PNG: логотип тёмный/светлый, монограмма «n» |
+| `guide/` | Все 31 кадр брендбука в PNG, по порядку (`order.json`) |
+| `logo/` | SVG из Figma: `wordmark.svg`, `wordmark-display.svg`, `symbol.svg`, `latin.svg`, `cyrillic.svg`, `descriptor-ink.svg` / `descriptor-paper.svg`. PNG: логотип тёмный/светлый, монограмма «n», логотип с символом |
+| `graphics/` | `forms.svg` — формы из «бусин», `material-1.png` — материал знака |
+| `web/` | Макеты сайта: десктоп, десктоп v2, мобильная |
+| `case/` | Кейс бренда целиком и соцформаты (сторис, посты) |
 | `avatars/telegram/` | Пять вариантов аватара канала, 1024×1024 |
 | `templates/word/` | Бланк Word: шапка с логотипом и реквизитами ООО «Некстера» (`letterhead.py` собирает `nextera-letterhead.docx`) |
 | `skill/nextera-brand/` | Навык для агентов платформы |
-| `scripts/` | `export_from_figma.py` — сверка палитры с Figma и выгрузка SVG: `FIGMA_TOKEN=… python3 scripts/export_from_figma.py` |
+| `scripts/` | `export_from_figma.py` — сверка палитры с Figma и выгрузка всего вышеперечисленного: `FIGMA_TOKEN=… python3 scripts/export_from_figma.py` |
 
 ## Статус
 
-Версия 0.2 (26.11.2026). Палитра сверена с Figma скриптом (кадр `711:1249`), логотипы выгружены в SVG. В `lockup.svg` подпись «корпоративная вайбкод-платформа» — так в Figma на 26.11.
+Версия 0.3 (26.11.2026): полная выгрузка из NexteraBrandBook — брендбук, сайт, кейс. Палитра сверена с Figma скриптом. Тексты бренда (дескриптор «корпоративная вайбкод-платформа», сайт «Вайбкод в масштабах вашего бизнеса») приведены как в Figma.

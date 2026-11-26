@@ -5,7 +5,7 @@ description: Дизайн-код Nextera — цвета, шрифт, прави�
 
 # Дизайн-код Nextera
 
-Источник правды — репо https://github.com/Nextera-AI/brandbook (выгрузка из Figma TOLK_NEXTERA). Значения ниже — справка; в коде **подключай файлы по ссылкам**, а не переписывай цвета.
+Источник правды — репо https://github.com/Nextera-AI/brandbook (выгрузка из Figma NexteraBrandBook). Брендбук текстом — GUIDE.md: голос бренда, архетипы, правила логотипа. Значения ниже — справка; в коде **подключай файлы по ссылкам**, а не переписывай цвета.
 
 ## Цвета (75 % нейтральные / 25 % акцент)
 
@@ -31,6 +31,14 @@ IBM Plex Sans 400/500/600. IBM Plex Mono — только код и данные
 - JSON: `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/tokens/colors.json`, `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/tokens/typography.json`
 - Логотип SVG: `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/wordmark.svg`, символ `…/logo/symbol.svg`; PNG: `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/wordmark-ink.png` (на светлом), `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/wordmark-paper.png` (на тёмном), монограмма `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/monogram-n-ink.png`
 - Бланк Word: `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/templates/word/nextera-letterhead.docx`, генератор `templates/word/letterhead.py` (python-docx)
+
+## Голос
+
+Правитель × Бунтарь (через Творца): «Контроль, который переопределяет правила». Говорим: «скорость без системы — это риск», «мы возвращаем контроль». Не говорим: «мы поможем вам», «AI изменит мир», «удобный инструмент». Заголовки — со строчной.
+
+## Логотип: нельзя
+
+Деформировать, поворачивать, перекрашивать, ставить на цветную подложку, менять буквы, ставить с низким контрастом. Охранное поле — «x» из построений (guide/18).
 
 ## Не делаем
 
