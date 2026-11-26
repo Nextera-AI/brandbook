@@ -1,0 +1,8 @@
+{
+  "family": "IBM Plex Sans",
+  "license": "SIL Open Font License 1.1",
+  "weights": [400, 500, 600],
+  "mono": "IBM Plex Mono — только для кода и данных, не для украшения",
+  "logo-font": "Halvar — шрифт логотипа; в макетах только контурами, в текстах не использовать",
+  "scale-hint": { "display": "-0.035em tracking, 600", "title": "-0.03em, 600", "body": "400, line-height 1.45–1.5" }
+}

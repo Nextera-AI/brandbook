@@ -1,0 +1,12 @@
+/* Nextera brand tokens. Источник: Figma TOLK_NEXTERA (guide, 711:1249). Не копируйте значения — подключайте этот файл. */
+:root {
+  --nx-ink: #17171A;
+  --nx-brown: #726658;
+  --nx-sand: #C2B59B;
+  --nx-stone: #E5E1DC;
+  --nx-paper: #EFEEED;
+  --nx-green: #4DE41D;       /* только заливки, маркеры, точки */
+  --nx-green-text: #2A7D10;  /* зелёный текст на светлом */
+  --nx-font: 'IBM Plex Sans', system-ui, sans-serif;
+  --nx-font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
