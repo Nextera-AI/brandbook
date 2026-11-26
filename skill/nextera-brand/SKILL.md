@@ -29,7 +29,7 @@ IBM Plex Sans 400/500/600. IBM Plex Mono — только код и данные
 
 - CSS: `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/tokens/tokens.css` (переменные --nx-ink, --nx-brown, --nx-green …)
 - JSON: `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/tokens/colors.json`, `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/tokens/typography.json`
-- Логотип: `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/wordmark-ink.png` (на светлом), `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/wordmark-paper.png` (на тёмном), монограмма `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/monogram-n-ink.png`
+- Логотип SVG: `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/wordmark.svg`, символ `…/logo/symbol.svg`; PNG: `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/wordmark-ink.png` (на светлом), `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/wordmark-paper.png` (на тёмном), монограмма `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/logo/monogram-n-ink.png`
 - Бланк Word: `https://raw.githubusercontent.com/Nextera-AI/brandbook/main/templates/word/nextera-letterhead.docx`, генератор `templates/word/letterhead.py` (python-docx)
 
 ## Не делаем
